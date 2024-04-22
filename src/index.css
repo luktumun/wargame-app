@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logotxt{
+  font-size:xx-large;
+  color: blue;
+  text-shadow: 13em;
+
+}
+.logotxt1{
+  font-size: xx-large;
+  color: antiquewhite;
+  text-shadow: 13em;
+}
