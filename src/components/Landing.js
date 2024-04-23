@@ -80,7 +80,7 @@ const RatingFilterPanel = ({allFilters, ratingFilters, handleSaveFilter})=>{
 
 let timer;
 const Landing = ()=>{
-  let allFilters = ["All", "Education", "Sports", "Comedy", "Lifestyle"];
+  let allFilters = ["All", "Wargame", "Sports", "Comedy", "Lifestyle"];
   let allRatingFilters = ["7", "12", "16", "18"];
   const [isLoading, setIsLoading] = useState(false);
   const [videoData,setVideoData] = useState([]);

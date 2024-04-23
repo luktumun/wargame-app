@@ -127,38 +127,14 @@ const VideoPage = ()=>{
                         <div className="video-text">
                             <h4>{videoObj.title}</h4>
                             <p>
-                                +{videoObj.viewCount} &nbsp; 
+                                 &nbsp; 
                                 {videoObj.genre} &nbsp; 
                                 {timeAgo}
                             </p>
+                            <p>{videoObj.description}</p>
+                            <a target="_blank" href={videoObj.downloadlink}>Download</a>
                         </div>
-                        <div className="video-likes">
-                            <span className="like-button" onClick={upVote}>{votes.upVotes}
-                            <Tooltip title="upvote">
-                                <ThumbUpIcon
-                                    sx={{
-                                        "&:hover": {
-                                            color: "blue",
-                                            cursor: "pointer"
-                                        }
-                                    }}
-                                />
-                            </Tooltip>
-                            </span>
-                            &nbsp;
-                            <span className="like-button" onClick={downVote}>{votes.downVotes}
-                            <Tooltip title="downvote">
-                                <ThumbDownIcon
-                                    sx={{
-                                        "&:hover": {
-                                            color: "blue",
-                                            cursor: "pointer"
-                                        }
-                                    }}
-                                />
-                            </Tooltip>
-                            </span>
-                        </div>
+                        
                     </div>
                 </Box>
                 :

@@ -5,11 +5,11 @@ const darkTheme = createTheme({
       mode: 'dark',
       // primary: "#212121",
       background: {
-        default: "rgb(236, 157, 190)",
+        default: "#ECF0F1 ",
         paper: "#212121",
       },
       text: {
-        primary: '#fff',
+        primary: '#0A1307  ',
         secondary: "grey",
       }
     }
